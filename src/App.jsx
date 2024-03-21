@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/Skills" element={Skills} />
         </Route>
       </Navbar>
-      <Hero />
+      {/* <Hero /> */}
     </BrowserRouter>
   );
 };
