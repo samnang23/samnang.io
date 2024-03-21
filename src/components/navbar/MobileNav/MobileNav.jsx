@@ -10,7 +10,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <a href="">Samnang Keo</a>
+          <a href="" className="name">
+            Samnang Keo
+          </a>
           <ul>
             <li>
               <Link className="menuItem" to="/">

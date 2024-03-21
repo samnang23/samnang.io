@@ -14,7 +14,9 @@ const Navbar = () => {
       <div className="navbar">
         <div className="nav-content">
           {/* <img src={photo} alt="" className="logo" /> */}
-          <a href="">Samnang Keo</a>
+          <a href="" className="name">
+            Samnang Keo
+          </a>
           <ul>
             <li>
               <Link className="menuItem" to="/">
